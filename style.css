@@ -338,10 +338,12 @@ nav li a {
     display: flex;
     margin-top: 100px;
 }
-.section-7-title{
+
+.section-7-title {
     margin-left: 180px;
 }
-.section-7-video{
+
+.section-7-video {
     margin-right: 100px;
 }
 
@@ -361,4 +363,88 @@ nav li a {
     color: #131318;
     font-size: 16px;
     font-weight: 700;
+}
+
+/* section-8 */
+.section-8 {
+    display: flex;
+}
+
+.Newslatter {
+    width: 474px;
+    height: 365px;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    margin-left: 170px;
+    margin-top: 100px;
+}
+
+.Newslatter h2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.Newslatter p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.Newslatter input {
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 20px;
+
+
+}
+
+.Newslatter-banner {
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 670px;
+    height: 500px;
+}
+
+#subscribe {
+    width: 440px;
+}
+
+.rotate {
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    color: #FFF;
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    position: relative;
+    bottom: 175px;
+    margin-left: 335px;
+    padding: 1px;
+    
+    
+   
+}
+
+.rotate h3 {
+    font-size: 22px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.rotate h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: -20px;
+   
+    
 }
