@@ -138,15 +138,71 @@ nav li a {
     color: #FFF;
     font-size: 20px;
     padding: 14px 35px;
-   
+
 }
 
 .section2-titile {
-    margin-left: 130px;
+    margin-left: 180px;
 }
 
 .section2-img {
     height: 550px;
     width: 540px;
     margin-right: 130px;
+}
+
+/* setion-3 */
+.section-3 {
+    text-align: center;
+    margin-top: 180px;
+}
+
+.section-3 h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-3 p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    
+    
+}
+/* section-4 */
+
+.section-4{
+    margin-left: 150px;
+    padding: 20px;
+}
+.second-4 img{
+   gap: 40px;
+}
+.section-banner-img-1 .second{
+    height: 300px;
+    width: 595px;
+    padding:10 20px;
+}
+.section-banner-img-2 .Rectange-9{
+   width: 295px;
+   height: 285px;
+}
+.section-banner-img-1 img{
+    padding: 10px;
+}
+.section-banner-img-2 img{
+    padding: 10px;
+}
+.section-banner-img-3 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.section-banner-img-3 .Rectangle-10{
+    padding:0 20px;
+    width: 700px;
+    height: 299px;
+    
 }
