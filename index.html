@@ -7,12 +7,15 @@
     <title>Travel Adventour</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap"
-    rel="stylesheet">
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -20,7 +23,7 @@
     <header>
         <div class="logo">
             <img src="Images/logo.png" alt="">
-            <h2>Hero Adventour</h2>
+            <h2>Hero <span class="same">Adventour</span></h2>
         </div>
         <div class="nav-bar">
             <nav>
@@ -40,37 +43,60 @@
         <section class="section-1">
             <div class="banner-titile">
                 <h2>Explore Your Travel Adventour</h2>
-                <p>Embrak on a thrilling travel adventure,Where every step unveils new wonders. Explore diverse landscape <br>  ,from pristine beaches to majestic mountains,immersing uourself in rich cultures along the way. <br>  Let the unknown be your guide.</p>
+                <p>Embrak on a thrilling travel adventure,Where every step unveils new wonders. Explore diverse
+                    landscape <br> ,from pristine beaches to majestic mountains,immersing uourself in rich cultures
+                    along the way. <br> Let the unknown be your guide.</p>
             </div>
             <div class="banner-input">
-                <input type="text"placeholder="Where we go">
-                <input type="text"placeholder="when">
-                <input type="text"placeholder="Select Type">
-                <input id="find-now" type="text"placeholder="Find Now">
+                <form action="">
+                    <input type="text" placeholder="Where we go">
+                    <select id="when-type">
+                        <option value="When">When</option>
+                        <option value="Summer">Summer</option>
+                        <option value="Winter">Winter</option>
+                    </select>
+                    <select id="when-type">
+                        <option value="When">When</option>
+                        <option value="Summer">Summer</option>
+                        <option value="Winter">Winter</option>
+                    </select>
+                    <button id="fine-now" class="btn-primary"><i class="fa-solid fa-magnifying-glass"></i> Fine Now
+                    </button>
+                </form>
+
             </div>
         </section>
         <!-- section-1 end -->
         <!-- section-2 start -->
         <section class="section-2">
-             <div class="section2-titile">
+            <div class="section2-titile">
                 <h1>Our Popular Tours</h1>
-                <p>It seems like you're looking for a concise and impactful description of your popular tours.Here's a suggestion. <br> Explore the world wonders with our acclaimed tours ,offering unforgettable </p>
-                <li>Embrak on a breathtaking journey through nature's wonders,discovering <br> aweinspiring landscapes that will leave you speechless.</li>
-                <li>Immerse yourself in the rich tapestry of global cultures,visting historic landmarks <br> and engaging with local traditons for an enriching and diverse exprience.</li>
-                <li>For the thrill-seekers,join us on an adrenaline-packed adventure,conquenring challenging <br> terrians and unlocking the screts of remote.</li>
-                <p>Certainly! Here's a concise description of popular tours."Embrak on global odssey with our popular tours.each promising a unique adventure.From awe-inspiring landscape to cultural marvels,we cater diverse tastes.For thrill-seeekers,our adventure Seekers Paradise Trak offers anderline packed escapades while our Lusxury Escape Retreats pamper with opulence,</p>
+                <p>It seems like you're looking for a concise and impactful description of your popular tours.Here's a
+                    suggestion. <br> Explore the world wonders with our acclaimed tours ,offering unforgettable </p>
+                <li>Embrak on a breathtaking journey through nature's wonders,discovering <br> aweinspiring landscapes
+                    that will leave you speechless.</li>
+                <li>Immerse yourself in the rich tapestry of global cultures,visting historic landmarks <br> and
+                    engaging with local traditons for an enriching and diverse exprience.</li>
+                <li>For the thrill-seekers,join us on an adrenaline-packed adventure,conquenring challenging <br>
+                    terrians and unlocking the screts of remote.</li>
+                <p>Certainly! Here's a concise description of popular tours."Embrak on global odssey with our popular
+                    tours.each promising a unique adventure.From awe-inspiring landscape to cultural marvels,we cater
+                    diverse tastes.For thrill-seeekers,our adventure Seekers Paradise Trak offers anderline packed
+                    escapades while our Lusxury Escape Retreats pamper with opulence,</p>
                 <button class="btn-primary">Read More</button>
-             </div>
-             <div class="section2-img">
+            </div>
+            <div class="section2-img">
                 <img src="Images/Rectangle 4.png" alt="">
-             </div>
+            </div>
         </section>
         <!-- section-2 end -->
         <!-- section-3 start -->
 
-        <section class="section-3"> 
+        <section class="section-3">
             <h1>Choose Your Destination</h1>
-            <p>Select Your dream dstination with us-a world of possibilities awaits.From vibrant cityscapes <br> to serene landscape our curated options cater every traveles desires. <br> Begin your Journey towards unforgettable experiences today.</p>
+            <p>Select Your dream dstination with us-a world of possibilities awaits.From vibrant cityscapes <br> to
+                serene landscape our curated options cater every traveles desires. <br> Begin your Journey towards
+                unforgettable experiences today.</p>
 
         </section>
         <!-- section-3 end -->
@@ -97,8 +123,9 @@
 
         <section class="section-5">
             <h1>Why Choose Us</h1>
-            <p>Elevate your experience with us-where innovation meets exceptional serviec.Choose us for unparalled <br> quality and a commitment to exceeding your expectations.</p>
-            
+            <p>Elevate your experience with us-where innovation meets exceptional serviec.Choose us for unparalled <br>
+                quality and a commitment to exceeding your expectations.</p>
+
         </section>
 
         <!-- section-5 end -->
@@ -108,19 +135,27 @@
                 <div class="sec1">
                     <img src="icon/hotel 1.svg" alt="">
                     <h2>Handpicked Hotels</h2>
-                    <p>Discover Handpicked Hotels,curated for an unforgettable stay <br> tailored to your desires.  Immerse yourself in luxury and comfort <br> at Handpicked Hotels,Where each property is  qi-unique gem.<br> Elevate your travel experience with our meticulously chosen <br> Handpicked Hotels collection.</p>
-                    
+                    <p>Discover Handpicked Hotels,curated for an unforgettable stay <br> tailored to your desires.
+                        Immerse yourself in luxury and comfort <br> at Handpicked Hotels,Where each property is
+                        qi-unique gem.<br> Elevate your travel experience with our meticulously chosen <br> Handpicked
+                        Hotels collection.</p>
+
                 </div>
                 <div class="sec2">
                     <img src="icon/map 1.svg" alt="">
                     <h2>World Class Service</h2>
-                    <p>Discover Handpicked Hotels,curated for an unforgettable stay <br> tailored to your desires.  Immerse yourself in luxury and comfort <br> at Handpicked Hotels,Where each property is  qi-unique gem.<br> Elevate your travel experience with our meticulously chosen <br> Handpicked Hotels collection.</p>
+                    <p>Discover Handpicked Hotels,curated for an unforgettable stay <br> tailored to your desires.
+                        Immerse yourself in luxury and comfort <br> at Handpicked Hotels,Where each property is
+                        qi-unique gem.<br> Elevate your travel experience with our meticulously chosen <br> Handpicked
+                        Hotels collection.</p>
                 </div>
             </div>
             <div class="group2">
                 <img src="icon/price-tag 1.svg" alt="">
                 <h2>Best Price Guarantee</h2>
-                <p>Discover Handpicked Hotels,curated for an unforgettable stay <br> tailored to your desires.  Immerse yourself in luxury and comfort <br> at Handpicked Hotels,Where each property is  qi-unique gem.<br> Elevate your travel experience with our meticulously chosen <br> Handpicked Hotels collection.</p>
+                <p>Discover Handpicked Hotels,curated for an unforgettable stay <br> tailored to your desires. Immerse
+                    yourself in luxury and comfort <br> at Handpicked Hotels,Where each property is qi-unique gem.<br>
+                    Elevate your travel experience with our meticulously chosen <br> Handpicked Hotels collection.</p>
             </div>
 
         </section>
@@ -129,15 +164,18 @@
         <section class="section-7">
             <div class="section-7-title">
                 <h1>A Simple Perfect Place <br> To Get Lost</h1>
-                <p>Find serenity in simplicity at our haven- a simple,perfact place to get lost.Lose yourself <br> in traquility at our retreat,where simpilicity becomes the key to a perfect escape.</p>
-                <li>Unwind in nature's embrace at our simple  perfect ,<br> place-an oasis where getting lost feels just right.</li><br>
-                <li>Experience serenity and escape the ordinary at our ,<br> retreat ,a simple perfect place to get lost and find yourself anew.</li><br><br>
+                <p>Find serenity in simplicity at our haven- a simple,perfact place to get lost.Lose yourself <br> in
+                    traquility at our retreat,where simpilicity becomes the key to a perfect escape.</p>
+                <li>Unwind in nature's embrace at our simple perfect ,<br> place-an oasis where getting lost feels just
+                    right.</li><br>
+                <li>Experience serenity and escape the ordinary at our ,<br> retreat ,a simple perfect place to get lost
+                    and find yourself anew.</li><br><br>
                 <button class="btn-primary">See more</button>
             </div>
             <div class="section-7-video">
-               <video controls width="600" height="400"  >
-                <source src="video/Surah Al-Fatiha, Al-Ikhlas, Al-Falaq, An-Nas - Mishary Rashid Al-Afasy.mp4">
-               </video>
+                <video controls width="600" height="400">
+                    <source src="video/Surah Al-Fatiha, Al-Ikhlas, Al-Falaq, An-Nas - Mishary Rashid Al-Afasy.mp4">
+                </video>
             </div>
 
         </section>
@@ -147,20 +185,42 @@
             <div class="Newslatter">
                 <h2>Newsletter</h2>
                 <p>Get you daily of travel news & tips.Sign <br> up today!</p>
-                <input type="text"placeholder="Enter your name"><br><br>
-                <input type="gmail"placeholder="Enter your email"><br><br>
+                <input type="text" placeholder="Enter your name"><br><br>
+                <input type="gmail" placeholder="Enter your email"><br><br>
                 <button id="subscribe" class="btn-primary">Subscribe</button>
             </div>
             <div class="Newslatter-banner">
                 <img src="Images/Rectangle 8 (1).png" alt="">
                 <div class="rotate">
-                <h3>Travel.com</h3>
-                <h2>Save up to 70%</h2>
+                    <h3>Travel.com</h3>
+                    <h2>Save up to 70%</h2>
                 </div>
             </div>
         </section>
 
         <!-- section-8 end -->
+        <!-- section-9 start -->
+        <section>
+            <div class="footer">
+                <img src="Images/logo.png" alt="">
+                <h2>Hero <span class="same">Adventour</span></h2>
+            </div>
+            <p class="embark">Embrak on a thrilling Hero Adventure Tour where epic quests await every turn.Join forces
+                with legendary companions, <br> conquer treacherous landscape ,and unravel the mysteries of a
+                fantastical realm.Unlesh your inner hero as you face. <br>Will you emerge victorius and etech your name
+            </p>
+            <div class="icon">
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+            <hr class="hr-line"><br>
+            <div class="Reserved">
+                <h4>2017,All Rights Reserved.</h4>
+            </div>
+        </section>
+        <!-- section-9 end -->
 
 
     </main>
