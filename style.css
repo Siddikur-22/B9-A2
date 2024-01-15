@@ -273,6 +273,7 @@ nav li a {
     background: rgba(41, 206, 246, 0.05);
     padding: 30px;
 }
+
 .sec2 h2 {
     color: #131318;
     font-size: 24px;
@@ -307,12 +308,14 @@ nav li a {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
-.group2 h2{ 
+
+.group2 h2 {
     color: #131318;
     font-size: 24px;
     font-weight: 800;
 }
-.group2 p{
+
+.group2 p {
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
@@ -328,4 +331,34 @@ nav li a {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 
+}
+
+/* section-7 */
+.section-7 {
+    display: flex;
+    margin-top: 100px;
+}
+.section-7-title{
+    margin-left: 180px;
+}
+.section-7-video{
+    margin-right: 100px;
+}
+
+.section-7-title h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-7-title p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.section-7-title li {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
 }
