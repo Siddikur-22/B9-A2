@@ -7,6 +7,7 @@ body {
 
 header {
     display: flex;
+    margin-top: 30px;
 }
 
 
@@ -58,6 +59,8 @@ nav li a {
     height: 900px;
     border-radius: 16px;
     margin-left: 170px;
+    margin-top: 80px;
+
 
 
 }
@@ -83,7 +86,7 @@ nav li a {
     width: 850px;
     margin-left: 150px;
     padding: 20px;
-    
+
 }
 
 .banner-input input {
@@ -95,7 +98,55 @@ nav li a {
 
 }
 
-#find-now{
+#find-now {
     background: #FF5400;
-    color:black;
+    color: black;
+}
+
+/* section-2 */
+
+.section-2 {
+    display: flex;
+    gap: 50px;
+    margin-top: -300px;
+}
+
+.section2-titile h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section2-titile p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.section2-titile li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.btn-primary {
+    background: #FF5400;
+    border-radius: 8px;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    padding: 14px 35px;
+   
+}
+
+.section2-titile {
+    margin-left: 130px;
+}
+
+.section2-img {
+    height: 550px;
+    width: 540px;
+    margin-right: 130px;
 }
