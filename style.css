@@ -462,12 +462,12 @@ nav li a {
 
 
 /* section-7 */
-.section-7 {
+#section-7 {
     display: flex;
     margin-top: 100px;
 }
 
-.section-7-title {
+#section-7-title {
     margin-left: 180px;
 }
 
@@ -779,12 +779,12 @@ nav li a {
         /* padding: 20px; */
     }
 
-    
+
 
     #second {
         width: 360px;
         height: 170px;
-        
+
     }
 
     .section-banner-img-2 .Rectange-9 {
@@ -817,93 +817,246 @@ nav li a {
         height: 170px;
     }
 
-    .section-banner-img-3 #Rectangle-10  {
+    .section-banner-img-3 #Rectangle-10 {
         width: 360px;
         height: 170px;
         padding: 10px 0;
 
     }
+
     /* section-5 */
-    .section-5{
+    .section-5 {
         margin-top: 250px;
-        
+
     }
-    .section-5 h1{
+
+    .section-5 h1 {
         font-size: 20px;
         margin-left: -150px;
     }
-    .section-5 p{
+
+    .section-5 p {
         font-size: 14px;
         width: 350px;
-        margin-left:40px;
+        margin-left: 40px;
     }
 
- /* section-6 */
- .section-6 .group1{
-    display: grid;
- }
- .group1 {
-    display: flex;
-    margin-top: 50px;
-    margin-left: 18px;
-   
-}
-.sec1,
-.sec2,
-.group2{
-    width: 295px;
-    border-radius: 16px;
-    border: 1px solid rgba(251, 181, 99, 0.20);
-    background: rgba(251, 181, 99, 0.05);
-    padding: 30px;
-    margin-left: 17px;
-}
-.group2{
-    margin-left: 35px;
-}
+    /* section-6 */
+    .section-6 .group1 {
+        display: grid;
+    }
 
-/* Deals & Discount */
-.deals{
-    margin-top: 50px;
-}
-.deals h1 {
-    font-size: 20px;
-    margin-left: -130px;
-    
-}
+    .group1 {
+        display: flex;
+        margin-top: 50px;
+        margin-left: 18px;
 
-.deals p {
-    font-size: 14px;
-    width: 400px;
-    margin-left: 20px;
-  
-}
-.three-img-1,.three-img-2,.three-img-3{
-    width: 360px;
-    height: 500px;
-    margin-bottom: 400px;
-    margin-left: 30px;
-}
-.font-img-1,.font-img-2,.font-img-3 {
-    width: 300px;
-    height: 300px;
-    padding: 20px;
-    position: relative;
-    top: 110px;
-    left:10px;
-}
-/* section-7 */
-.section-7{
-    display: grid;
-}
-.section-7-title{
-    margin-left: 20px;
-}
-.section-7-title{
+    }
+
+    .sec1,
+    .sec2,
+    .group2 {
+        width: 295px;
+        border-radius: 16px;
+        border: 1px solid rgba(251, 181, 99, 0.20);
+        background: rgba(251, 181, 99, 0.05);
+        padding: 30px;
+        margin-left: 17px;
+    }
+
+    .group2 {
+        margin-left: 35px;
+    }
+
+    /* Deals & Discount */
+    .deals {
+        margin-top: 50px;
+    }
+
+    .deals h1 {
+        font-size: 20px;
+        margin-left: -130px;
+
+    }
+
+    .deals p {
+        font-size: 14px;
+        width: 400px;
+        margin-left: 20px;
+
+    }
+
+    .three-img-1,
+    .three-img-2,
+    .three-img-3 {
+        width: 360px;
+        height: 500px;
+        margin-bottom: 400px;
+        margin-left: 30px;
+    }
+
+    .font-img-1,
+    .font-img-2,
+    .font-img-3 {
+        width: 300px;
+        height: 350px;
+        padding: 20px;
+        position: relative;
+        top: 90px;
+        left: 10px;
+    }
+
+    #book-now {
+        margin-top: -40px;
+
+    }
+
+    .font-img-2
+
+    /* section-7 */
+    #section-7,
+    .section-77,
+    #section-7-title {
+        margin-left: 20px;
+        margin-top: -180px;
+        width: 360px;
+    }
+
+    #section-7,
+    .section-77,
+    #section-7-title h1 {
+        font-size: 20px;
+
+    }
+    #section-7,
+    .section-77,
+    #section-7-title p ,li{
+        font-size: 14px;
+
+    }
+    #section-7,
+    .section-77,.section-7-video video{
+       width: 355px;
+       height: 200px;
+       margin-left: 10px;
+       
+
+
+    }
+    .section-7-video video{
+
+        margin-top: 30px;
+    }
+    /* section-8 */
+    .section-8{
+        display: grid;
+    }
+    .Newslatter {
+        width: 290px;
+        height: 300px;
+        padding: 30px;
+        border-radius: 16px;
+        margin-left: 34px;
+        margin-top: 100px;
+    }
+    .Newslatter h2 {
+        font-size: 20px;
+    }
     
-}
-.section-7-title{
+    .Newslatter p {
+        font-size: 14px;
+    }
     
-}
- 
+    
+    .Newslatter input {
+        width: 240px;
+        height: 50px;
+        border: none;
+        border-radius: 8px;
+        background: rgba(19, 19, 24, 0.05);
+        color: rgba(19, 19, 24, 0.30);
+        font-size: 16px;
+        font-weight: 400;
+        padding: 0 20px;
+    
+    
+    }
+    #subscribe {
+        width: 280px;
+    }
+    .Newslatter-banner img {
+        margin-top: -80px;
+        margin-left: 10px;
+        width: 350px;
+        height: 300px;
+    }
+    .rotate {
+        width: 224px;
+        height: 80px;
+        transform: rotate(-19.628deg);
+        color: #FFF;
+        text-align: center;
+        position: relative;
+        bottom: 125px;
+        margin-left:127px;
+        padding: 1px;
+    
+    }
+    .rotate h3 {
+        font-size: 15px;
+    }
+    
+    .rotate h2 {
+        font-size: 21px;
+        font-weight: 800;
+        margin-top: -20px;
+    
+    
+    }
+    /* footer */
+    .footer {
+        display: flex;
+        align-items: center;
+        margin-left: 110px;
+        margin-top: -250px;
+    }
+    
+    .footer img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .footer h2 {
+        font-size: 22px;
+    }
+    .embark{
+        width: 330px;
+        margin-left: 50px;
+       
+    }
+    .embark p{
+        font-size: 14px;
+    }
+    .icon {
+        margin-left: 120px;
+
+    }
+    .icon i {
+        padding: 10px;
+    
+    }
+    .hr-line {
+        width: 330px;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    
+    .Reserved {
+        font-size: 14px;
+        font-weight: 300;
+        margin-right: 140px;
+        margin-bottom: 60px;
+    }
+    
+
 }
