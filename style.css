@@ -33,6 +33,9 @@ header {
     margin-left: 100px;
     padding: 0 10px;
 }
+.bars{
+    display: none;
+}
 
 /* nav-bar */
 nav {
@@ -654,6 +657,9 @@ nav li a {
     .nav-bar {
         display: none;
     }
+    
+   
+    /* .section-1 */
 
     .section-1 {
         background: url(Images/banner.png);
@@ -689,7 +695,7 @@ nav li a {
 
     }
 
-    form {}
+   
 
     form input {
         width: 264px;
@@ -720,7 +726,7 @@ nav li a {
         display: grid;
         gap: 50px;
         margin-top: 70px;
-        margin-left: -150px;
+        margin-left: -140px;
     }
 
     .section2-titile h1 {
