@@ -1,7 +1,7 @@
 /* font style :font-family: 'Mulish', sans-serif; */
 body {
     font-family: 'Mulish';
-    
+
 }
 
 
@@ -10,6 +10,7 @@ body {
 header {
     display: flex;
     margin-top: 30px;
+
 }
 
 
@@ -30,7 +31,7 @@ header {
     width: 40px;
     height: 40px;
     margin-left: 100px;
-    /* padding: 0 10px; */
+    padding: 0 10px;
 }
 
 /* nav-bar */
@@ -418,7 +419,7 @@ nav li a {
     margin-bottom: -400px;
 }
 
-.font-img-1{
+.font-img-1 {
     width: 500px;
     height: 250px;
     padding: 20px;
@@ -430,7 +431,8 @@ nav li a {
     top: 110px;
     left: 580px;
 }
-.font-img-2{
+
+.font-img-2 {
     width: 500px;
     height: 250px;
     padding: 20px;
@@ -440,9 +442,10 @@ nav li a {
     backdrop-filter: blur(2.5px);
     position: relative;
     top: 110px;
-    
+
 }
-.font-img-3{
+
+.font-img-3 {
     width: 500px;
     height: 250px;
     padding: 20px;
@@ -621,4 +624,204 @@ nav li a {
     font-size: 16px;
     font-weight: 300;
     margin-bottom: 60px;
+}
+
+
+/* Mobile Device Responsive */
+
+@media screen and (max-width:600px) {
+    .logo img {
+        width: 40px;
+        height: 40px;
+        margin-left: 10px;
+        padding: 0 10px;
+    }
+
+    .logo h2 {
+        margin-top: 5px;
+        margin-left: 10px;
+        display: flex;
+        font-size: 21px;
+    }
+
+    .logo h2 .same {
+        margin-left: 10px;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .section-1 {
+        background: url(Images/banner.png);
+        background-repeat: no-repeat;
+        width: 360px;
+        height: 500px;
+        border-radius: 16px;
+        margin-left: 30px;
+        margin-top: 80px;
+    }
+
+    .banner-titile {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .banner-titile h2 {
+        font-size: 22px;
+    }
+
+    .banner-titile p {
+        font-size: 16px;
+    }
+
+    .banner-input {
+        text-align: center;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        height: 450px;
+        width: 300px;
+        margin-left: 10px;
+        padding: 20px;
+
+    }
+
+    form {}
+
+    form input {
+        width: 264px;
+        margin-bottom: 10px;
+    }
+
+    #when-type {
+        height: 50px;
+        width: 300px;
+        border: none;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+
+    #fine-now {
+        background: #FF5400;
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 700;
+        height: 54px;
+        width: 300px;
+
+
+    }
+
+    /* section2 */
+    .section-2 {
+        display: grid;
+        gap: 50px;
+        margin-top: 70px;
+        margin-left: -150px;
+    }
+
+    .section2-titile h1 {
+        font-size: 20px;
+    }
+
+    .section2-titile p {
+        font-size: 14px;
+        width: 320px;
+
+    }
+
+    .section2-titile li {
+        font-size: 14px;
+        width: 320px;
+
+
+    }
+
+    .section2-titile .btn-primary {
+        margin-top: 20px;
+
+
+    }
+
+    .section2-img img {
+        height: 340px;
+        width: 365px;
+        margin-left: 180px;
+
+
+    }
+
+    /* section3 */
+    .section-3 {
+        text-align: center;
+        margin-top: -170px;
+    }
+
+    .section-3 h1 {
+        font-size: 20px;
+        margin-left: -150px;
+
+    }
+
+    .section-3 p {
+        font-size: 14px;
+        margin-left: 30px;
+        width: 380px;
+
+    }
+
+    /* section4 */
+    .section-4 {
+        margin-left: 10px;
+        /* padding: 20px; */
+    }
+
+    
+
+    #second {
+        width: 360px;
+        height: 170px;
+        
+    }
+
+    .section-banner-img-2 .Rectange-9 {
+        width: 360px;
+        height: 170px;
+    }
+
+    .section-banner-img-1 img {
+        width: 360px;
+        height: 170px;
+    }
+
+    .section-banner-img-2 img {
+        width: 360px;
+        height: 170px;
+    }
+
+    .section-banner-img-3 img {
+        width: 360px;
+        height: 170px;
+    }
+
+    .section-banner-img-2 img {
+        width: 360px;
+        height: 170px;
+    }
+
+    .section-banner-img-3 {
+        width: 360px;
+        height: 170px;
+    }
+
+    .section-banner-img-3 #Rectangle-10  {
+        width: 360px;
+        height: 170px;
+        padding: 10px 0;
+
+    }
+
+
+
+
 }
