@@ -209,7 +209,7 @@ nav li a {
     gap: 40px;
 }
 
-.section-banner-img-1 #second {
+.section-banner-img-1 .second {
     height: 300px;
     width: 595px;
     padding: 10 20px;
@@ -791,6 +791,10 @@ nav li a {
         width: 360px;
         height: 170px;
 
+    }
+    .section-banner-img-1 .second{
+        width: 360px;
+        height: 170px;
     }
 
     .section-banner-img-2 .Rectange-9 {
