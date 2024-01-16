@@ -202,10 +202,11 @@ nav li a {
 }
 
 .second-4 img {
+
     gap: 40px;
 }
 
-.section-banner-img-1 .second {
+.section-banner-img-1 #second {
     height: 300px;
     width: 595px;
     padding: 10 20px;
@@ -229,7 +230,7 @@ nav li a {
     margin-top: 10px;
 }
 
-.section-banner-img-3 .Rectangle-10 {
+.section-banner-img-3 #Rectangle-10 {
     padding: 0 20px;
     width: 700px;
     height: 299px;
@@ -442,6 +443,7 @@ nav li a {
     backdrop-filter: blur(2.5px);
     position: relative;
     top: 110px;
+    left: 30px;
 
 }
 
